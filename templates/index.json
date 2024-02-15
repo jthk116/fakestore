@@ -50,6 +50,8 @@
       "settings": {
         "seasonal_title": "Vacay This Way",
         "seasonal_subtitle": "Everything you need for your summer get away!",
+        "seasonal_cta_desktop_text": "SHOP SUMMER",
+        "seasonal_cta_mobile_text": "SHOP SUMMER ESSENTIALS",
         "seasonal_cta_url": "shopify:\/\/collections\/automated-collection",
         "seasonal_image": "shopify:\/\/shop_images\/image_block_1.jpg"
       }
@@ -70,16 +72,45 @@
             "card_2_title": "COLLEGE BOUND",
             "card_2_subtitle": "New places and new faces. Same great style."
           }
+        },
+        "card_1_link_3VkkPR": {
+          "type": "card_1_link",
+          "settings": {
+            "hero_cta_text": "WOMEN",
+            "card_1_url": "shopify:\/\/products\/the-3p-fulfilled-snowboard"
+          }
+        },
+        "card_1_link_87AVPa": {
+          "type": "card_1_link",
+          "settings": {
+            "hero_cta_text": "MEN",
+            "card_1_url": "shopify:\/\/products\/the-collection-snowboard-hydrogen"
+          }
+        },
+        "card_1_link_qAjceU": {
+          "type": "card_1_link",
+          "settings": {
+            "hero_cta_text": "KIDS",
+            "card_1_url": "shopify:\/\/products\/the-collection-snowboard-liquid"
+          }
+        },
+        "card_1_link_xBhFnf": {
+          "type": "card_1_link",
+          "settings": {
+            "hero_cta_text": "HOME",
+            "card_1_url": "shopify:\/\/products\/the-collection-snowboard-oxygen"
+          }
         }
       },
       "block_order": [
         "card_1_A8fLBK",
-        "card_2_yPDz3t"
+        "card_2_yPDz3t",
+        "card_1_link_3VkkPR",
+        "card_1_link_87AVPa",
+        "card_1_link_qAjceU",
+        "card_1_link_xBhFnf"
       ],
       "settings": {
-        "hero_heading": "IN STORES & ONLINE",
-        "hero_title": "50% OFF EVERYTHING",
-        "hero_text_color": "#FFFFFF"
       }
     },
     "fs_featured_icons_qmc8pF": {
