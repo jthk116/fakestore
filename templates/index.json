@@ -123,6 +123,28 @@
     },
     "fs_featured_icons_qmc8pF": {
       "type": "fs_featured-icons",
+      "blocks": {
+        "icon_QcLeFG": {
+          "type": "icon",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/shipping-icon.png",
+            "icon_text": "FREE SHIPPING ON ALL ORDERS",
+            "icon_url": ""
+          }
+        },
+        "icon_hdtmWb": {
+          "type": "icon",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/returns-icon.png",
+            "icon_text": "FREE RETURNS ON ALL ORDERS",
+            "icon_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_QcLeFG",
+        "icon_hdtmWb"
+      ],
       "settings": {
       }
     },
