@@ -5,7 +5,8 @@
       "settings": {
         "hero_heading": "IN STORES & ONLINE",
         "hero_title": "50% OFF EVERYTHING",
-        "hero_text_color": "#FFFFFF"
+        "hero_text_color": "#000000",
+        "hero_image": "shopify:\/\/shop_images\/hero_image_1.jpg"
       }
     },
     "fs_seasonal_z4fTwL": {
