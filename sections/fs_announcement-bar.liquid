@@ -1,0 +1,36 @@
+<div class="container">
+    <h1>fs announcement bar</h1>
+</div>
+
+{% schema %}
+{
+    "name": "FS Announcement Bar",
+    "class": "fs-announcement-bar",
+    "settings": [
+        {
+            "type": "text",
+            "id": "ab_text",
+            "label": "Announcement Text",
+            "default": "FREE SHIPPING & RETURNS ON EVERY ORDER!"
+        },
+        {
+            "type": "url",
+            "id": "ab_url",
+            "label": "Announcement URL"
+        },
+        {
+            "type": "color",
+            "id": "ab_text_color",
+            "label": "Announcement Text Color",
+            "default": "#FFFFFF"
+        },
+        {
+            "type": "color",
+            "id": "ab_background_color",
+            "label": "Announcement Background Color",
+            "default": "#005BC4"
+        }
+    ],
+    "presets": [{ "name": "FS Announcement Bar"}]
+}
+{% endschema %}

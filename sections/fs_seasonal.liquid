@@ -1,0 +1,44 @@
+{{ 'fs_seasonal.css' | asset_url | stylesheet_tag }}
+
+<h1>fs seasonal</h1>
+
+<script src="{{ 'fs_seasonal.js' | asset_url }}" defer></script>
+
+{% schema %}
+{
+    "name": "FS Seasonal",
+    "class": "fs-seasonal",
+    "settings": [
+        {
+            "type": "text",
+            "id": "seasonal_title",
+            "label": "Seasonal Title",
+            "default": "Vacay This Way"
+        },
+        {
+            "type": "text",
+            "id": "seasonal_subtitle",
+            "label": "Seasonal Subtitle",
+            "default": "Everything you need for your summer get away!"
+        },
+        {
+            "type": "text",
+            "id": "seasonal_cta_text",
+            "label": "Seasonal CTA Text",
+            "default": "SHOP SUMMER"
+        },
+        {
+            "type": "url",
+            "id": "seasonal_cta_url",
+            "label": "Seasonal CTA URL"
+        },
+        {
+            "type": "image_picker",
+            "id": "seasonal_image",
+            "label": "Seasonal Image",
+            "info": "Size: 930x650px, Compressed .jpg"
+        }
+    ],
+    "presets": [{ "name": "FS Seasonal"}]
+}
+{% endschema %}

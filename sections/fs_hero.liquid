@@ -1,0 +1,59 @@
+{{ 'fs_hero.css' | asset_url | stylesheet_tag }}
+
+<h1>fs hero</h1>
+
+<script src="{{ 'fs_hero.js' | asset_url }}" defer></script>
+
+{% schema %}
+{
+    "name": "FS Hero",
+    "class": "fs-hero",
+    "settings": [
+        {
+            "type": "text",
+            "id": "hero_heading",
+            "label": "Hero Heading",
+            "default": "IN STORES & ONLINE"
+        },
+        {
+            "type": "text",
+            "id": "hero_title",
+            "label": "Hero Title",
+            "default": "50% OFF EVERYTHING"
+        },
+        {
+            "type": "color",
+            "id": "hero_text_color",
+            "label": "Hero Text Color",
+            "default": "#FFFFFF"
+        },
+        {
+            "type": "image_picker",
+            "id": "hero_image",
+            "label": "Hero Image",
+            "info": "Size: 2560x650px, Compressed .jpg"
+        }
+    ],
+    "max_blocks": 4,
+    "blocks": [
+        {
+        "name": "Link",
+        "type": "link",
+        "settings": [
+            {
+                "type": "text",
+                "id": "hero_cta_text",
+                "label": "Hero CTA Text",
+                "default": "Shop Now"
+            },
+            {
+                "type": "url",
+                "id": "hero_cta_url",
+                "label": "Hero CTA URL"
+            }
+        ]
+        }
+    ],
+    "presets": [{ "name": "FS Hero"}]
+}
+{% endschema %}
