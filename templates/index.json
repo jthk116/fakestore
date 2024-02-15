@@ -2,6 +2,42 @@
   "sections": {
     "fs_hero_EYBqkD": {
       "type": "fs_hero",
+      "blocks": {
+        "link_cRNTwr": {
+          "type": "link",
+          "settings": {
+            "hero_cta_text": "WOMEN",
+            "hero_cta_url": "shopify:\/\/products\/the-collection-snowboard-hydrogen"
+          }
+        },
+        "link_kcqQyn": {
+          "type": "link",
+          "settings": {
+            "hero_cta_text": "MEN",
+            "hero_cta_url": "shopify:\/\/products\/the-collection-snowboard-liquid"
+          }
+        },
+        "link_Kr9iKc": {
+          "type": "link",
+          "settings": {
+            "hero_cta_text": "KIDS",
+            "hero_cta_url": "shopify:\/\/products\/the-collection-snowboard-oxygen"
+          }
+        },
+        "link_6X47XP": {
+          "type": "link",
+          "settings": {
+            "hero_cta_text": "HOME",
+            "hero_cta_url": "shopify:\/\/products\/the-compare-at-price-snowboard"
+          }
+        }
+      },
+      "block_order": [
+        "link_cRNTwr",
+        "link_kcqQyn",
+        "link_Kr9iKc",
+        "link_6X47XP"
+      ],
       "settings": {
         "hero_heading": "IN STORES & ONLINE",
         "hero_title": "50% OFF EVERYTHING",
