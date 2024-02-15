@@ -139,11 +139,20 @@
             "icon_text": "FREE RETURNS ON ALL ORDERS",
             "icon_url": ""
           }
+        },
+        "icon_TFCg7E": {
+          "type": "icon",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/checkout-icon.png",
+            "icon_text": "SAFE & SECURE CHECKOUT",
+            "icon_url": ""
+          }
         }
       },
       "block_order": [
         "icon_QcLeFG",
-        "icon_hdtmWb"
+        "icon_hdtmWb",
+        "icon_TFCg7E"
       ],
       "settings": {
       }
