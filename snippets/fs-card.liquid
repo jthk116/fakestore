@@ -1,5 +1,5 @@
 <div class="fs-card">
-    <img src='/assets/fs-img_college_bound.jpg' class="fs-card__image">
+    <img src='{{ card.card_image | img_url: 'master' }}' class="fs-card__image">
     <div class="fs-card__content">
         <h3>{{ card.card_title }}</h3>
         <p>{{ card.card_subtitle }}</p>
