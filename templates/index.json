@@ -63,14 +63,16 @@
           "type": "card_1",
           "settings": {
             "card_1_title": "NEW ARRIVALS",
-            "card_1_subtitle": "Our latest Summer styles. Fresh. Fun. Fabulous."
+            "card_1_subtitle": "Our latest Summer styles. Fresh. Fun. Fabulous.",
+            "card_1_image": "shopify:\/\/shop_images\/new_arrivals.jpg"
           }
         },
         "card_2_yPDz3t": {
           "type": "card_2",
           "settings": {
             "card_2_title": "COLLEGE BOUND",
-            "card_2_subtitle": "New places and new faces. Same great style."
+            "card_2_subtitle": "New places and new faces. Same great style.",
+            "card_2_image": "shopify:\/\/shop_images\/college_bound.jpg"
           }
         },
         "card_1_link_3VkkPR": {
