@@ -62,52 +62,62 @@
         "card_1_A8fLBK": {
           "type": "card_1",
           "settings": {
-            "card_1_title": "NEW ARRIVALS",
-            "card_1_subtitle": "Our latest Summer styles. Fresh. Fun. Fabulous.",
-            "card_1_image": "shopify:\/\/shop_images\/new_arrivals.jpg"
+            "card_title": "NEW ARRIVALS",
+            "card_subtitle": "Our latest Summer styles. Fresh. Fun. Fabulous.",
+            "card_image": "shopify:\/\/shop_images\/new_arrivals.jpg",
+            "link_text1": "WOMEN",
+            "link_url1": "",
+            "link_text2": "MEN",
+            "link_url2": "",
+            "link_text3": "KIDS",
+            "link_url3": "",
+            "link_text4": "HOME",
+            "link_url4": ""
           }
         },
         "card_2_yPDz3t": {
           "type": "card_2",
           "settings": {
-            "card_2_title": "COLLEGE BOUND",
-            "card_2_subtitle": "New places and new faces. Same great style.",
-            "card_2_image": "shopify:\/\/shop_images\/college_bound.jpg"
+            "card_title": "COLLEGE BOUND",
+            "card_subtitle": "New places and new faces. Same great style.",
+            "card_image": "shopify:\/\/shop_images\/college_bound.jpg",
+            "link_text": "SHOP DORM DECOR",
+            "link_url": ""
           }
         },
         "card_1_link_3VkkPR": {
           "type": "card_1_link",
           "settings": {
-            "hero_cta_text": "WOMEN",
-            "card_1_url": "shopify:\/\/products\/the-3p-fulfilled-snowboard"
+            "link_text": "",
+            "link_url": ""
           }
         },
         "card_1_link_87AVPa": {
           "type": "card_1_link",
           "settings": {
-            "hero_cta_text": "MEN",
-            "card_1_url": "shopify:\/\/products\/the-collection-snowboard-hydrogen"
+            "link_text": "",
+            "link_url": ""
           }
         },
         "card_1_link_qAjceU": {
           "type": "card_1_link",
           "settings": {
-            "hero_cta_text": "KIDS",
-            "card_1_url": "shopify:\/\/products\/the-collection-snowboard-liquid"
+            "link_text": "",
+            "link_url": ""
           }
         },
         "card_1_link_xBhFnf": {
           "type": "card_1_link",
           "settings": {
-            "hero_cta_text": "HOME",
-            "card_1_url": "shopify:\/\/products\/the-collection-snowboard-oxygen"
+            "link_text": "",
+            "link_url": ""
           }
         },
         "card_2_link_pA7yJx": {
           "type": "card_2_link",
           "settings": {
-            "hero_cta_text": "SHOP HOME DECOR",
-            "card_2_url": "shopify:\/\/products\/the-compare-at-price-snowboard"
+            "link_text": "",
+            "link_url": ""
           }
         }
       },
