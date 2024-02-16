@@ -1,6 +1,13 @@
 {{ 'fs_seasonal.css' | asset_url | stylesheet_tag }}
 
-<h1>fs seasonal</h1>
+<div class="container">
+    <div class="fs-seasonal__content">
+        <h2 class="fs-seasonal__title">{{ section.settings.seasonal_title }}</h2>
+        <p class="fs-seasonal__subtitle">{{ section.settings.seasonal_subtitle }}</p>
+        <a href="{{ section.settings.seasonal_cta_url }}" class="fs-cta fs-seasonal__cta">{{ section.settings.seasonal_cta_desktop_text }}</a>
+    </div>
+    <img src="{{ section.settings.seasonal_image | img_url: 'master' }}" alt="seasonal image" class="fs-seasonal__image">
+</div>
 
 <script src="{{ 'fs_seasonal.js' | asset_url }}" defer></script>
 

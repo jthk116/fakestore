@@ -72,9 +72,41 @@
 }
 body {
   font-family: "Roboto-Regular", sans-serif;
+  color: #4A4A4A;
 }
 
 .container {
   max-width: 1440px;
   padding: 16px;
+  margin: 0 auto;
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 8px;
+  }
+}
+
+#WebPixelsManagerSandboxContainer {
+  display: none;
+}
+
+.fs-cta {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #141414;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 0 12px;
+}
+@media (max-width: 767px) {
+  .fs-cta {
+    height: 41px;
+    line-height: 41px;
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=fs_base-custom.css.map */

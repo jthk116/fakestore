@@ -1,6 +1,13 @@
 {{ 'fs_featured-icons.css' | asset_url | stylesheet_tag }}
 
-<h1>fs featured icons</h1>
+<div class="container">
+    {% for block in section.blocks %}
+        <div class="fs-icon__content">
+            <img src="{{ block.settings.icon_image | img_url: 'small' }}" alt="featured icon">
+            <p>{{ block.settings.icon_text }}</p>
+        </div>
+    {% endfor %}
+</div>
 
 {% schema %}
 {
